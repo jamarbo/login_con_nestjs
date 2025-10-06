@@ -1,0 +1,14 @@
+# Ejemplo de archivo de variables
+# Copiar este archivo como terraform.tfvars y personalizar valores
+
+location            = "eastus"
+resource_group_name = "rg-auth-system-dev"
+project_name        = "auth-system"
+environment         = "dev"
+
+# Actualizar con las URLs de tus imágenes Docker
+backend_docker_image   = "ghcr.io/tu-org/auth-backend:latest"
+frontend_docker_image  = "ghcr.io/tu-org/auth-frontend:latest"
+
+# JWT Secret (usar Azure Key Vault en producción)
+jwt_secret = "your-super-secret-jwt-key-change-in-production"
