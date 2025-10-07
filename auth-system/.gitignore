@@ -12,3 +12,8 @@ build/
 .angular/
 coverage/
 *.js.map
+
+# Archivos PDF de pruebas técnicas
+Prueba de Código (Lider Técnico).pdf
+Prueba Refactorizacion de código (lider técnico).pdf
+*.pdf

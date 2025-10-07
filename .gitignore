@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Archivos PDF de pruebas técnicas (no deben estar en el repositorio)
+Prueba de Código (Lider Técnico).pdf
+Prueba Refactorizacion de código (lider técnico).pdf
+*.pdf
